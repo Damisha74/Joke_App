@@ -18,6 +18,35 @@ Before you begin, ensure you have installed:
 - Android Studio / Xcode (for mobile development)
 - Git
 
+## Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.0.0          # For HTTP requests
+  shared_preferences: ^2.0.0  # For local storage
+```
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone (https://github.com/Damisha74/Joke_App.git)
+cd flutter-joke-app
+```
+
+2. Install dependencies:
+```bash
+flutter pub get
+```
+
+3. Run the app:
+```bash
+flutter run
+```
+
+
 
 
 
