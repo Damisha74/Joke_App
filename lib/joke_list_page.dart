@@ -81,7 +81,7 @@ class _JokeListPageState extends State<JokeListPage>
         child: Container(
           margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           decoration: BoxDecoration(
-            gradient: AppTheme.cardGradient,
+            color: AppTheme.cardBackgroundColor,
             borderRadius: AppTheme.borderRadius['lg'],
             boxShadow: AppTheme.cardShadow,
           ),
@@ -125,11 +125,13 @@ class _JokeListPageState extends State<JokeListPage>
                         ),
                       ),
                       const Spacer(),
-                      Icon(
-                        Icons.emoji_emotions_outlined,
-                        color: const Color(0xFF8E24AA).withOpacity(0.7),
-                        size: 20,
-                      ),
+                      Text(
+                            '😄',  // Laughing Face emoji
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: const Color(0xFF8E24AA).withOpacity(0.8),
+                            ),
+                          ),
                     ],
                   ),
                   const SizedBox(height: 16),
@@ -252,11 +254,13 @@ class _JokeListPageState extends State<JokeListPage>
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(
-            Icons.emoji_emotions_outlined,
-            size: 64,
-            color: const Color(0xFF8E24AA).withOpacity(0.5),
-          ),
+          Text(
+                '😄',  // Laughing Face emoji
+                style: TextStyle(
+                  fontSize: 20,
+                  color: const Color(0xFF8E24AA).withOpacity(0.8),
+                ),
+              ),
           const SizedBox(height: 24),
           const Text(
             'No jokes available',

@@ -21,14 +21,8 @@ class AppTheme {
     shadow: Color(0xFF000000),
   );
 
-  static final cardGradient = LinearGradient(
-    begin: Alignment.topLeft,
-    end: Alignment.bottomRight,
-    colors: [
-      const Color(0xFFCE93D8),
-      const Color(0xFFE1BEE7),
-    ],
-  );
+  static const cardBackgroundColor = Color(0xFFE1BEE7);
+
 
   static List<BoxShadow> get cardShadow => [
         BoxShadow(

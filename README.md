@@ -4,7 +4,7 @@ A Flutter application that fetches and displays programming and Christmas-themed
 
 ## Features
 
-- Fetches programming and Christmas jokes from JokeAPI
+- Fetches programming, Christmas and Pun jokes from JokeAPI
 - Offline support with local caching using SharedPreferences
 - Pull-to-refresh functionality for reloading jokes
 - Error handling with fallback to cached jokes

@@ -24,7 +24,7 @@ class JokeService {
 
     try {
       final response = await _dio.get(
-        "https://v2.jokeapi.dev/joke/Programming,Christmas?blacklistFlags=nsfw,religious,racist&amount=5",
+        "https://v2.jokeapi.dev/joke/Programming,Christmas,Pun?blacklistFlags=nsfw,religious,racist&amount=5",
         options: Options(
           sendTimeout: const Duration(seconds: 5),
           receiveTimeout: const Duration(seconds: 5),
